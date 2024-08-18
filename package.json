@@ -2,7 +2,7 @@
   "name": "word-bowl",
   "version": "1.0.0",
   "private": true,
-  "description": "add a word to the bowl then pick one to play",
+  "description": "add a word to the bowl then pick one to play. guess the word you picked to win",
   "keywords": [
     "gatsby"
   ],
