@@ -11,12 +11,13 @@ const WordBowl = () => {
   const [userInput, setUserInput] = React.useState('')
   const [guesses, setGuesses] = React.useState('')
   const [cheat, setCheat] = React.useState(false)
+  const [loading, setLoading] = React.useState(false)
   const userGuessedCorrectly = guesses && guesses.slice(-5) === secretWord
   let titleText = cheat && secretWord ? secretWord : 'word bowl'
   if (guesses.length === 30) titleText = 'you lose!'
   if (userGuessedCorrectly) titleText = 'you win!'
   const buttonText =  userGuessedCorrectly || guesses.length === 30 ? 'reset' : 'submit'
-  const buttonDisabled = userInput.length !== 5 && buttonText !== 'reset'
+  const buttonDisabled = (userInput.length !== 5 && buttonText !== 'reset') || loading
   const onSubmit = async () => {
     if (userGuessedCorrectly) {
       setSecretWord('')
@@ -29,7 +30,9 @@ const WordBowl = () => {
       return
     }
     if (!secretWord && userInput.length === 5) {
+      setLoading(true)
       const response = await tradeWords(userInput)
+      setLoading(false)
       setSecretWord(response.slice(-5))
       setUserInput('')
     }
@@ -57,7 +60,7 @@ const WordBowl = () => {
   return (
     <div className="game-container">
       <h1 className='title'>{titleText}</h1>
-      <Words secretWord={secretWord} userInput={userInput} guesses={guesses}/>
+      <Words secretWord={secretWord} userInput={userInput} guesses={guesses} cheat={cheat}/>
       <Button onClick={onSubmit} text={buttonText} disabled={buttonDisabled}/>
       <Keyboard handleKeyPress={handleKeyPress}/>
     </div>

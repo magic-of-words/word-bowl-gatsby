@@ -12,7 +12,7 @@ const letterNeeded = (index, letters, secretWord) => {
     //if occurrence = 1 this is the first occurence of this letter incorrectly
     //etc
     let occurrence = 0
-    for (let i = 0; i < letters.length; i++) {
+    for (let i = 0; i < secretWord.length; i++) {
         const currentLetter = letters.charAt(i)
         const secretLetter = secretWord.charAt(i)
         if (letter === secretLetter && letter !== currentLetter) {
