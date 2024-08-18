@@ -1,49 +1,23 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Minimal Starter
-</h1>
+Welcome to **_word_** **bowl**, a text based game!
 
-## 🚀 Quick start
+## Chapters
 
-1.  **Create a Gatsby site.**
+- [how to play](#how-to-play)
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+## how-to-play
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+if you wanna download it and run it locally go for it no problemo
 
-2.  **Start developing.**
+coming soon @ [wordbowl.xyz](wordbowl.xyz)
 
-    Navigate into your new site’s directory and start it up.
+## Gameplay
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+1. **Objective**: submit a 5-letter word to get a 5 letter word. guess the 5 letter word you received to win
 
-3.  **Open the code and start customizing!**
+## Contributing
 
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Tutorials](https://www.gatsbyjs.com/docs/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Guides](https://www.gatsbyjs.com/docs/how-to/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Netlify)
-
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
-
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)
+- forks and knives
+- and plates and
+- cups and food
+- and people and
+- wine and spoons
