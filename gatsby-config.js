@@ -3,8 +3,8 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `wordle`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `word bowl`,
+    siteUrl: `https://www.magic-of-words.com`
   },
   plugins: ["gatsby-plugin-sass"]
 };

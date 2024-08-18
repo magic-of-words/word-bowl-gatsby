@@ -1,3 +1,42 @@
-node_modules/
-.cache/
-public
+#exclude everything but
+#especially the ether
+#unless asked nicely
+
+#########
+##ETHER##
+/*
+##ETHER##
+#########
+
+###########################
+###########################
+###########################
+###########BEGIN###########
+############NEW############
+###########WORLD###########
+###########################
+###########################
+###########################
+
+#########HEURISTIC#########
+#############1#############
+#########DONT#STOP#########
+############THE############
+###########PARTY###########
+
+#can't ignore without ignoring
+!/.gitignore
+
+#where i actually write my code
+
+#where i write my code
+!/src
+!/src/**
+
+#where the generated website goes
+
+#info needed to run and build
+!/package.json
+
+#my creative moment
+!/README.md

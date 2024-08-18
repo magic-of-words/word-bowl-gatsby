@@ -1,8 +1,8 @@
 {
-  "name": "wordle",
+  "name": "word-bowl",
   "version": "1.0.0",
   "private": true,
-  "description": "wordle",
+  "description": "add a word to the bowl then pick one to play",
   "keywords": [
     "gatsby"
   ],
