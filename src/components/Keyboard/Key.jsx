@@ -3,7 +3,9 @@ import "./Keyboard.styles.sass"
 
 const Key = (params) => {
     return <button onClick={params.onPress} className="key">
-        {params.letter}
+        <div className='key-text'>
+            {params.letter}
+        </div>
     </button>
 }
 

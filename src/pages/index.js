@@ -69,4 +69,7 @@ const WordBowl = () => {
 
 export default WordBowl
 
-export const Head = () => <title>word bowl</title>
+export const Head = () => <>
+  <title>word bowl</title>
+  <meta name="viewport" content="user-scalable=no, initial-scale=0.9, shrink-to-fit=no, width=device-width" />
+</>
