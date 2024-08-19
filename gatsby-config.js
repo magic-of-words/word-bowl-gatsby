@@ -11,7 +11,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-s3`,
       options: {
-        bucketName: "word-bowl-gatsby",
+        bucketName: "wordbowl.xyz",
       },
     },
   ]
