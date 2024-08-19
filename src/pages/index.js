@@ -16,7 +16,8 @@ const WordBowl = () => {
   let titleText = cheat && secretWord ? secretWord : 'word bowl'
   if (guesses.length === 30) titleText = 'you lose!'
   if (userGuessedCorrectly) titleText = 'you win!'
-  const buttonText =  userGuessedCorrectly || guesses.length === 30 ? 'reset' : 'submit'
+  let buttonText =  userGuessedCorrectly || guesses.length === 30 ? 'reset' : 'submit'
+  if (loading) buttonText = 'loading'
   const buttonDisabled = (userInput.length !== 5 && buttonText !== 'reset') || loading
   const onSubmit = async () => {
     if (userGuessedCorrectly) {
