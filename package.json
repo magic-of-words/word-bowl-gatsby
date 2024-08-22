@@ -12,7 +12,7 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby-plugin-s3 deploy"
+    "deploy": "gatsby build && gatsby-plugin-s3 deploy"
   },
   "dependencies": {
     "gatsby": "^5.13.5",

@@ -13,7 +13,8 @@ const WordBowl = () => {
   const [cheat, setCheat] = React.useState(false)
   const [loading, setLoading] = React.useState(false)
   const userGuessedCorrectly = guesses && guesses.slice(-5) === secretWord
-  let titleText = cheat && secretWord ? secretWord : 'word bowl'
+  let titleText = secretWord ? 'guess word' : 'give word'
+  if (cheat && secretWord) titleText = secretWord
   if (guesses.length === 30) titleText = 'you lose!'
   if (userGuessedCorrectly) titleText = 'you win!'
   let buttonText =  userGuessedCorrectly || guesses.length === 30 ? 'reset' : 'submit'
