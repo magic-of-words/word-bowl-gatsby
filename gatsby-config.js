@@ -4,15 +4,15 @@
 module.exports = {
   siteMetadata: {
     title: `word bowl`,
-    siteUrl: `https://www.magic-of-words.com`,
+    siteUrl: `http://wordbowl.xyz`,
   },
   plugins: [
     "gatsby-plugin-sass",
     {
       resolve: `gatsby-plugin-s3`,
       options: {
-        bucketName: "word-bowl-gatsby",
+        bucketName: "wordbowl.xyz",
       },
     },
   ]
-};
+}
