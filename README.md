@@ -8,7 +8,7 @@ Welcome to **_word_** **bowl**, a text based game!
 
 if you wanna download it and run it locally go for it no problemo
 
-coming soon @ [wordbowl.xyz](wordbowl.xyz)
+coming soon @ [wordbowl.xyz](http://wordbowl.xyz)
 
 ## Gameplay
 
